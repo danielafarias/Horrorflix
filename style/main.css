@@ -1,0 +1,108 @@
+@import url('http://fonts.cdnfonts.com/css/netflix-sans');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('http://fonts.cdnfonts.com/css/american-horror-story');
+
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'Netflix Sans', sans-serif;
+    color: #fff;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin: 5px;
+    font-family: 'Creepster', cursive;
+    color: var(--red);
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Filme Principal */
+
+.principal-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/ahs-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.principal-movie .description {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.principal-movie .title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'American Horror Story', sans-serif;;
+}
+
+.principal-movie .button {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-weight: bold;
+}
+
+.principal-movie .button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.principal-movie .container {
+    width: 70%;
+}
+
+.movie-box {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.movies {
+    margin-top: 10px;
+}
+
