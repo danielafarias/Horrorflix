@@ -72,7 +72,7 @@ Seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## 🪦 Licença
+## 📜 Licença
 
 Esse projeto está sob licença MIT ⚖️. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
