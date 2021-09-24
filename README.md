@@ -20,8 +20,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Html
 - [x] Style
 - [x] Carousel
-- [ ] Buttons funcionais
-- [ ] Projeto Finalizado
+- [x] Projeto Finalizado
 
 
 ## 🩸 Instalando `<Horrorflix>`
